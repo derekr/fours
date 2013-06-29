@@ -1,0 +1,27 @@
+{
+  "author": "Derek Reynolds <derekr@me.org>",
+  "name": "fours",
+  "description": "Streaming API client for Foursquare",
+  "version": "0.0.1",
+  "homepage": "https://github.com/derekr/fours",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekr/fours.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "hyperquest": "~0.1.5",
+    "lodash": "~1.2.1"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "codebux": "~0.1.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
